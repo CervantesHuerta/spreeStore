@@ -1,2 +1,0 @@
-# spreeStore
-Tienda con Spree
