@@ -8,6 +8,7 @@
  *= require_self
  *= require_tree .
  *= require spree/backend/spree_globalize
+ *= require spree/backend/spree_themes
 */
 /*!
  * bootswatch v3.3.7
@@ -15,13 +16,16 @@
  * Copyright 2012-2016 Thomas Park
  * Licensed under MIT
  * Based on Bootstrap
+ *= require spree/backend/spree_themes
 */
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+  *= require spree/backend/spree_themes
+*/
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css  *= require spree/backend/spree_themes
+*/
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -205,7 +209,8 @@ td,
 th {
   padding: 0;
 }
-/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css  *= require spree/backend/spree_themes
+*/
 @media print {
   *,
   *:before,
